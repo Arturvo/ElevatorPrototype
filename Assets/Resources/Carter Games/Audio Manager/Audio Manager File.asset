@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19ae0c8eafd7263429865ae0f6fe29e6, type: 3}
+  m_Name: Audio Manager File
+  m_EditorClassIdentifier: 
+  audioMixer: []
+  soundPrefab: {fileID: 322064603624763291, guid: f97cb5ab9dca8bd488116e0ffc057e10, type: 3}
+  isPopulated: 1
+  directory:
+  - Assets/Audio
+  library:
+  - key: ButtonPressSound
+    value: {fileID: 8300000, guid: 6c9c0fdfb0a1ef94989afc432a10a374, type: 3}
+  - key: ElevatorDoorBingAndMove
+    value: {fileID: 8300000, guid: eefbc81cbaa67ea41b91d82ce90c0974, type: 3}
+  - key: ElevatorDoorMove
+    value: {fileID: 8300000, guid: e0b068bcb6a98a245a8e51170332630c, type: 3}
+  - key: ElevatorFloorBip
+    value: {fileID: 8300000, guid: e1890855e9b261448b10b8928c1da922, type: 3}
+  - key: ElevatorMusic
+    value: {fileID: 8300000, guid: 79b455dd2b9f156489b00289c4ede076, type: 3}
+  - key: ElevatorTraveling
+    value: {fileID: 8300000, guid: 7fca71d0fa05f9d4f88ed2eef8cad2f4, type: 3}
