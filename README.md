@@ -20,7 +20,7 @@ Game -> Core
 Project is separated in multiple scenes:  
 Init - a scene that is always loaded at the start, regardless of which scene was opened in the editor. Used to make sure all global managers are fully initialized before being accessed  
 UserInterface - contains user interface  
-Player - contains the player so that it can exist separately the floors  
+Player - contains the player so that it can exist separately to the floors  
 Elevator - contains the elevator so that it can be shared between floors  
 FloorX - each floor is a separate scene. When  the player changes floors, the previous floor scene is unloaded and the new floor is loaded in its place 
 
