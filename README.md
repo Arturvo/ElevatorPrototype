@@ -1,5 +1,5 @@
-# ElevatorDemo - Documentation
-### ElevatorDemo was created as a recruitment task to implement elevator functionality in Unity 3D, with the following requirements:
+# ElevatorPrototype - Documentation
+### ElevatorPrototype was created as a recruitment task to implement elevator functionality in Unity 3D, with the following requirements:
 1. The elevator needs to have a door opened with a button. The door contains a photocell that prevents the player to be squished. The door opens using Unity animator.
 2. Inside the elevator, there is a panel with buttons leading to different floors. After pressing a button, the door closes and starts traveling to the selected floor. After reaching the destination, the door opens.
 3. Elevator plays different sounds when starting moving and finishing movement.
